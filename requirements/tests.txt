@@ -3,7 +3,7 @@
 coverage==7.5.0; implementation_name == 'pypy'
 coverage==7.6.0; implementation_name != 'pypy'
 importlib-metadata==7.1.0; implementation_name == 'pypy'
-importlib-metadata==8.0.0; implementation_name != 'pypy'
+importlib-metadata==8.2.0; implementation_name != 'pypy'
 numpy<2.0.0; implementation_name == 'pypy' or python_version < '3.9'
 numpy==2.0.0; implementation_name != 'pypy' and python_version >= '3.9'
 polib==1.2.0
